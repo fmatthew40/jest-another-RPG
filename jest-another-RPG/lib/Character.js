@@ -34,6 +34,5 @@ class Character {
   }
 }
 
-
-  module.exports = Character;
+module.exports = Character;
 
