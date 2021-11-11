@@ -1,13 +1,10 @@
 const Potion = require('../lib/Potion');
-
 const Character = require('./Character'); 
-
 
 class Player extends Character {
   constructor(name = '') {
     // call parent constructor here
     super(name); 
-
     this.inventory = [new Potion('health'), new Potion()];
   }
 
