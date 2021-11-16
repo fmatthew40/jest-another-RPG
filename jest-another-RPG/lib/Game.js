@@ -38,9 +38,7 @@ Game.prototype.startNewBattle = function() {
   }
   console.log('Your stats are as follows:');
   console.table(this.player.getStats());
-
   console.log(this.currentEnemy.getDescription());
-
   this.battle();
 };
 
