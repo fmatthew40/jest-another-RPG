@@ -21,7 +21,6 @@ class Character {
   getAttackValue() {
     const min = this.strength - 5;
     const max = this.strength + 5;
-
     return Math.floor(Math.random() * (max - min) + min);
   }
 
